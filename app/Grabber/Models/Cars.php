@@ -9,6 +9,9 @@ class Cars extends Model
     /** @var string  */
     protected $table = 'cars';
 
+    /** @var bool  */
+    public $timestamps = true;
+
     /** @var array  */
     protected $fillable = [
         'link',
